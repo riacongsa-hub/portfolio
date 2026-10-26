@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div > img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  right: 60px;
+  bottom: 140px;
+}
+
+.fixed img {
+  display: block;
+  width: 60px;
+  padding: 10px;
+}
+
+.fixed2 img {
+  width: 50px;
+  height: 50px;
+  padding: 15px 15px 10px 15px;
+}
+
+.fixed,
+.fixed2 {
+  border: 1px solid #111;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.fixed:hover {
+  opacity: 1;
+}
+
+.fixed2 {
+  position: fixed;
+  right: 60px;
+  bottom: 40px;
+}
+
+.fixed2:hover {
+  opacity: 1;
+}
